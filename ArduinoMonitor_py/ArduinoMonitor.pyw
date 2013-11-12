@@ -1,4 +1,9 @@
-from Tkinter import *
+#!/usr/bin/python2
+try:
+    from Tkinter import *
+except ImportError:
+    from tkinter import *
+
 from readSerials import SerialPins
 import collections
 
